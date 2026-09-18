@@ -20,10 +20,11 @@
       <div class="hero-glow glow-b"></div>
       <div class="hero-copy reveal in-view">
         <div class="eyebrow"><span></span> Ремонт техники с выездом</div>
-       <h1>
-  Ремонт холодильников<br />
-  <span class="accent">и бытовой техники в Ташкенте</span>
-</h1>
+       <h1 class="hero-title">
+  <span class="hero-title-main">Ремонт холодильников</span>
+  <span class="hero-title-sub">и бытовой техники</span>
+  <span class="hero-title-city">в Ташкенте</span>
+      </h1>
         <p class="hero-text">
   Ремонт холодильников и бытовой техники в Бухаре с выездом мастера.
   Ремонтируем холодильники, стиральные машины, морозильники,

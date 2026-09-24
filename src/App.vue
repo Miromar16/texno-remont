@@ -21,10 +21,11 @@
       <div class="hero-copy reveal in-view">
         <div class="eyebrow"><span></span> Ремонт техники с выездом</div>
        <h1 class="hero-title">
-  <span class="hero-title-main">Ремонт холодильников</span>
-  <span class="hero-title-sub">и бытовой техники</span>
-  <span class="hero-title-city">в Ташкенте</span>
-      </h1>
+  <span>Ремонт</span>
+  <span>холодильников</span>
+  <span>и бытовой техники</span>
+  <span class="hero-city">в Ташкенте</span>
+</h1>
         <p class="hero-text">
   Ремонт холодильников и бытовой техники в Ташкенте с выездом мастера.
   Ремонтируем холодильники, стиральные машины, морозильники,
@@ -89,34 +90,40 @@
       </div>
     </section>
 
-    <section id="why" class="why-section">
-      <div class="container why-grid">
-        <div class="why-copy reveal">
-          <div class="eyebrow light"><span></span> Нормальный сервис</div>
-          <h2>Без “оставьте заявку,<br />мы вам перезвоним”.</h2>
-          <p>
-            На сайте нет формы, регистрации и лишних шагов. Один номер — звоните напрямую,
-            описываете поломку и договариваетесь о выезде.
-          </p>
-          <a :href="phoneHref" class="cta cta-light">{{ phone }} <span>↗</span></a>
-        </div>
-
-        <div class="orbital reveal">
-          <div class="orbit orbit-1"></div>
-          <div class="orbit orbit-2"></div>
-          <div class="orbit orbit-3"></div>
-          <div class="core">
-            <span class="core-icon">✦</span>
-            <strong>1 звонок</strong>
-            <small>до мастера</small>
-          </div>
-          <div class="sat sat-a">Диагностика</div>
-          <div class="sat sat-b">Выезд</div>
-          <div class="sat sat-c">Ремонт</div>
-        </div>
+    <section class="section simple-call-section">
+  <div class="container simple-call-grid">
+    
+    <div class="simple-call-copy">
+      <div class="eyebrow">
+        <span></span>
+        БЕЗ ФОРМ И ЛИШНИХ ШАГОВ
       </div>
-    </section>
 
+      <h2 class="simple-call-title">
+        <span>Просто позвоните —</span>
+        <span>мастер ответит</span>
+        <span>и договорится</span>
+        <span class="accent">о выезде.</span>
+      </h2>
+
+      <p class="simple-call-text">
+        Без форм, регистрации и лишних шагов. Один звонок —
+        и вы сразу объясняете проблему мастеру, уточняете
+        неисправность и согласовываете выезд по Ташкенту.
+      </p>
+
+      <a class="phone-pill dark" href="tel:+998909385631">
+        <span>+998 90 938 56 31</span>
+        <span class="arrow">↗</span>
+      </a>
+    </div>
+
+    <div class="simple-call-visual">
+      <ApplianceShowcase3D />
+    </div>
+
+  </div>
+</section>
     <section id="process" class="section container process-section">
       <div class="section-head reveal">
         <div>
@@ -136,6 +143,103 @@
         </div>
       </div>
     </section>
+
+    <section class="section seo-section">
+  <div class="container">
+
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">
+          <span></span>
+          Ремонт техники в Ташкенте
+        </div>
+
+        <h2>
+          Помогаем вернуть технику
+          <br />
+          <em>в рабочее состояние.</em>
+        </h2>
+      </div>
+
+      <p>
+        Мастер выезжает по Ташкенту, проводит диагностику,
+        объясняет причину неисправности и согласовывает ремонт.
+      </p>
+    </div>
+
+    <div class="seo-grid">
+
+      <article class="seo-card">
+        <h3>Ремонт холодильников в Ташкенте</h3>
+        <p>
+          Если холодильник перестал морозить, сильно шумит,
+          течёт, постоянно работает, покрывается льдом или
+          плохо охлаждает — можно вызвать мастера для диагностики
+          и ремонта на дому.
+        </p>
+      </article>
+
+      <article class="seo-card">
+        <h3>Ремонт стиральных машин</h3>
+        <p>
+          Диагностируем неисправности стиральных машин:
+          техника не сливает воду, не запускается, не нагревает,
+          не крутит барабан, протекает или показывает ошибку.
+        </p>
+      </article>
+
+      <article class="seo-card">
+        <h3>Ремонт другой бытовой техники</h3>
+        <p>
+          Также занимаемся диагностикой и ремонтом морозильников,
+          посудомоечных машин, микроволновых печей и другой
+          бытовой техники в Ташкенте.
+        </p>
+      </article>
+
+    </div>
+
+    <div class="faq">
+      <h2>Частые вопросы о ремонте техники</h2>
+
+      <details>
+        <summary>Выезжает ли мастер по Ташкенту?</summary>
+        <p>
+          Да. Позвоните и сообщите район, тип техники и признаки
+          неисправности, чтобы согласовать выезд.
+        </p>
+      </details>
+
+      <details>
+        <summary>Можно ли отремонтировать холодильник на дому?</summary>
+        <p>
+          Многие неисправности можно устранить на месте после
+          диагностики. Возможность ремонта зависит от поломки
+          и необходимых деталей.
+        </p>
+      </details>
+
+      <details>
+        <summary>Сколько стоит ремонт?</summary>
+        <p>
+          Стоимость зависит от техники и причины неисправности.
+          После диагностики мастер может объяснить причину и
+          согласовать стоимость ремонта.
+        </p>
+      </details>
+
+      <details>
+        <summary>Что сообщить мастеру при звонке?</summary>
+        <p>
+          Назовите тип техники, марку при возможности и расскажите,
+          как проявляется неисправность: не включается, не морозит,
+          шумит, течёт или показывает ошибку.
+        </p>
+      </details>
+    </div>
+
+  </div>
+</section>
 
     <section class="final-cta">
       <div class="final-glow"></div>
@@ -161,6 +265,7 @@ import { onMounted, onBeforeUnmount } from 'vue'
 import HeroFridge3D from './components/HeroFridge3D.vue'
 import ServiceDevice3D from './components/ServiceDevice3D.vue'
 import CallButton from './components/CallButton.vue'
+import ApplianceShowcase3D from './components/ApplianceShowcase3D.vue'
 
 // Поменяйте номер здесь — он обновится во всех кнопках сайта.
 const phone = '+998 90 938 56 31'

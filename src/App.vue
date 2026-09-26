@@ -2,6 +2,7 @@
   <main>
     <div class="noise"></div>
 
+    <div data-nosnippet>
     <header class="nav container">
       <a href="#top" class="brand" aria-label="Техноремонт">
         <span class="brand-dot"></span>
@@ -14,6 +15,7 @@
       </nav>
       <a :href="phoneHref" class="phone-pill">{{ phone }}</a>
     </header>
+    </div>
 
     <section id="top" class="hero container">
       <div class="hero-glow glow-a"></div>
@@ -60,7 +62,7 @@
       </div>
     </section>
 
-    <section class="marquee-wrap" aria-hidden="true">
+    <section class="marquee-wrap" aria-hidden="true" data-nosnippet>
       <div class="marquee">
         <span>РЕМОНТ • ДИАГНОСТИКА • ВЫЕЗД • ГАРАНТИЯ • РЕМОНТ • ДИАГНОСТИКА • ВЫЕЗД • ГАРАНТИЯ •</span>
         <span>РЕМОНТ • ДИАГНОСТИКА • ВЫЕЗД • ГАРАНТИЯ • РЕМОНТ • ДИАГНОСТИКА • ВЫЕЗД • ГАРАНТИЯ •</span>
@@ -90,7 +92,7 @@
       </div>
     </section>
 
-    <section class="section simple-call-section">
+    <section id="why" class="section simple-call-section">
   <div class="container simple-call-grid">
     
     <div class="simple-call-copy">
@@ -252,11 +254,13 @@
     </section>
     <CallButton />
 
+    <div data-nosnippet>
     <footer class="footer container">
       <a href="#top" class="brand"><span class="brand-dot"></span> ТЕХНОРЕМОНТ</a>
       <p>Ремонт холодильников и бытовой техники</p>
       <a :href="phoneHref">Позвонить мастеру ↗</a>
     </footer>
+    </div>
   </main>
 </template>
 

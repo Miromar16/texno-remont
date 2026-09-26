@@ -1,4 +1,5 @@
 <template>
+  <div data-nosnippet>
   <a
     class="call-button"
     href="tel:+998909385631"
@@ -7,6 +8,7 @@
     <span class="call-button__icon">☎</span>
     <span class="call-button__text">Позвонить</span>
   </a>
+  </div>
 </template>
 
 <style scoped>

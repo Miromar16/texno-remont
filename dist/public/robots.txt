@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://texno-remont.uz/sitemap.xml

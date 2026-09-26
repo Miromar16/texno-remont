@@ -2,7 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://texno-remont.uz/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://texno-remont.uz/remont-holodilnikov-tashkent/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://texno-remont.uz/remont-stiralnyh-mashin-tashkent/</loc>
+    <lastmod>2026-09-26</lastmod>
+  </url>
+  <url>
+    <loc>https://texno-remont.uz/remont-bytovoy-tehniki-tashkent/</loc>
+    <lastmod>2026-09-26</lastmod>
   </url>
 </urlset>

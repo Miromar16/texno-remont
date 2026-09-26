@@ -87,7 +87,10 @@
           </div>
           <h3>{{ item.title }}</h3>
           <p>{{ item.text }}</p>
-          <a :href="phoneHref" class="text-link">Позвонить <span>↗</span></a>
+          <div class="service-card-links">
+            <a :href="item.href" class="text-link">Подробнее <span>↗</span></a>
+            <a :href="phoneHref" class="text-link text-link-muted">Позвонить</a>
+          </div>
         </article>
       </div>
     </section>
@@ -279,22 +282,26 @@ const services = [
   {
     model: 'fridge',
     title: 'Ремонт холодильников',
-    text: 'Холодильник не морозит, шумит, течёт, намерзает лёд, плохо охлаждает или не выключается.'
+    text: 'Холодильник не морозит, шумит, течёт, намерзает лёд, плохо охлаждает или не выключается.',
+    href: '/remont-holodilnikov-tashkent/'
   },
   {
     model: 'washer',
     title: 'Ремонт стиральных машин',
-    text: 'Стиральная машина не сливает воду, не крутит барабан, не нагревает воду или показывает ошибку.'
+    text: 'Стиральная машина не сливает воду, не крутит барабан, не нагревает воду или показывает ошибку.',
+    href: '/remont-stiralnyh-mashin-tashkent/'
   },
   {
     model: 'freezer',
     title: 'Ремонт морозильников',
-    text: 'Морозильник не набирает температуру, не включается или возникла проблема с компрессором и электроникой.'
+    text: 'Морозильник не набирает температуру, не включается или возникла проблема с компрессором и электроникой.',
+    href: '/remont-bytovoy-tehniki-tashkent/'
   },
   {
     model: 'microwave',
     title: 'Ремонт бытовой техники',
-    text: 'Посудомоечные машины, микроволновки и другая бытовая техника в Ташкенте.'
+    text: 'Посудомоечные машины, микроволновки и другая бытовая техника в Ташкенте.',
+    href: '/remont-bytovoy-tehniki-tashkent/'
   }
 ]
 const steps = [
